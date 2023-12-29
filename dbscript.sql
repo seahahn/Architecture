@@ -12,7 +12,7 @@ CREATE TABLE users(
 	email VARCHAR(255) NOT NULL,
 	pw VARCHAR(255) NOT NULL, -- 패스워드
 	nickname VARCHAR(255) NOT NULL,
-	profile_pic VARCHAR(255) NOT NULL DEFAULT '' -- 프로필 사진 S3 URL
+	profile_pic VARCHAR(255) NOT NULL DEFAULT '', -- 프로필 사진 S3 URL
 	membership INTEGER NOT NULL DEFAULT 0, -- 멤버쉽 구분(티어1, 티어2 등)
 	last_update TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(), -- 마지막 접속 시점
 	created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(), -- 가입 시점
@@ -133,7 +133,7 @@ CREATE TABLE mail_confirm(
 	email VARCHAR(255) NOT NULL,
 	cert_number VARCHAR(255) NOT NULL,
 	last_update TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(), -- 마지막 인증 요청 시점
-	created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(), -- 최초 인증 요청 시점
+	created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW() -- 최초 인증 요청 시점
 );
 
 COMMENT ON COLUMN mail_confirm.last_update IS '마지막 인증 요청 시점';
