@@ -1,7 +1,9 @@
 # ❇️ AI Play
 
 ## 1️⃣ 작품 소개
+
 <!-- ![Architecture Overview](https://user-images.githubusercontent.com/73585246/152648288-f4d44660-86f2-4e24-8b6d-76ea7c31d76f.png) -->
+
 🏠 www.aiplay.online
 
 ### AI Play(인공지능 놀이)
@@ -20,25 +22,27 @@
 - GUI 방식(마우스 클릭 + 간단한 값 입력)만으로 머신 러닝 과정(EDA, Feature Engineering, Training, ...) 수행 가능
 
 ### 프로젝트 기능별 결과물 저장소
-| 기능 | 저장소 주소 |
-| --- | --- |
-| 웹 앱 UI | https://github.com/AI-Play/Front-Web |
-| EDA 및 데이터 전처리 기능 API | https://github.com/AI-Play/ML-Funcs |
-| 머신 러닝 모델 훈련 기능 API | https://github.com/AI-Play/ML-Train |
-| 사용자 계정 관리 기능 API | https://github.com/AI-Play/User-Auth |
-| 사용자 머신 러닝 프로젝트 관리 기능 API | https://github.com/AI-Play/User-Proj-Managing |
-| 딥 러닝 체험 기능 API | https://github.com/AI-Play/DL-API |
-| 채팅 서버 | https://github.com/AI-Play/Chatting |
+
+| 기능                                    | 저장소 주소                                                                               |
+| --------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 웹 앱 UI                                | [ai-play_frontend](https://github.com/seahahn/ai-play_frontend)                           |
+| EDA 및 데이터 전처리 기능 API           | [ai-play_ml-functions](https://github.com/seahahn/ai-play_ml-functions)                   |
+| 머신 러닝 모델 훈련 기능 API            | [ai-play_ml-training](https://github.com/seahahn/ai-play_ml-training)                     |
+| 사용자 계정 관리 기능 API               | [ai-play_user-auth](https://github.com/seahahn/ai-play_user-auth)                         |
+| 사용자 머신 러닝 프로젝트 관리 기능 API | [ai-play_user-project-managing](https://github.com/seahahn/ai-play_user-project-managing) |
+| 딥 러닝 체험 기능 API                   | [ai-play_deep-learning-api](https://github.com/seahahn/ai-play_deep-learning-api)         |
+| 채팅 서버                               | [ai-play_chatting](https://github.com/seahahn/ai-play_chatting)                           |
 
 <br/>
 
 ## 2️⃣ 제작 기간 & 참여 인원
+
 - 2022.02.14 - 2022.03.28
 - 팀 프로젝트 : 3명
 - 팀 구성원
-<details>
-  <summary><a href="https://github.com/seahahn">안경호</a></summary>
-  
+  <details>
+    <summary><a href="https://github.com/seahahn">안경호</a></summary>
+
   - 팀장, 기획 & 개발 총괄
     - 프로젝트 아이디어 제안 및 기획, 설계
     - 프로젝트에 사용할 기술 선택
@@ -46,26 +50,23 @@
     - 팀 구성원이 올린 Github Pull Request의 Code Review 수행
     - 프로젝트 내용 문서화
   - 프론트앤드(웹 앱 UI 및 기능) 전체 개발
-  - 백앤드 개발
-    - 사용자 계정 관련 API(회원가입, 로그인 등) 서버 구현 및 리팩토링
-    - 사용자의 머신 러닝 프로젝트 관리 API 서버 구현 및 배포
-    - 딥 러닝 체험용 모델 API 서버 구현 및 배포
-</details>
-<details>
-  <summary><a href="https://github.com/KayyoungHL">이경희</a></summary>
-  
+  - 백앤드 개발 - 사용자 계정 관련 API(회원가입, 로그인 등) 서버 구현 및 리팩토링 - 사용자의 머신 러닝 프로젝트 관리 API 서버 구현 및 배포 - 딥 러닝 체험용 모델 API 서버 구현 및 배포
+  </details>
+  <details>
+    <summary><a href="https://github.com/KayyoungHL">이경희</a></summary>
+
   - 머신 러닝 기능 관련 API 개발 담당
   - 머신 러닝 API 서버(ML-Funcs, ML-Train) 전체 구현
   - 채팅 서버 구현
-</details>
-<details>
-  <summary><a href="https://github.com/Library-of-jade">김민석</a></summary>
+  </details>
+  <details>
+    <summary><a href="https://github.com/Library-of-jade">김민석</a></summary>
 
   - 데이터 시각화 기능 구현
   - 사용자 계정 관련 API(회원가입, 로그인 등) 서버 구현
   - 머신 러닝 및 사용자 계정 관련 API 서버 배포
   - 데이터베이스 모델 설계 및 구현
-</details>
+  </details>
 
 <br/>
 
@@ -73,14 +74,14 @@
 
 - 기술 선택 이유 : https://github.com/AI-Play/Architecture/blob/main/tech_stacks.md
 
-| 분류 | 기술 목록 |
-| --- | --- |
-| Frontend | React.js 17.0.2, TailwindCSS 3.0.22 |
-| Backend | FastAPI 0.75.0, Django 4.0.3, Fastify 3.27.2, Python 3.8.10, Go 1.17 |
-| Database | PostgreSQL(ElephantSQL), MongoDB(MongoDB Atlas) 5.0.6 |
-| DevOps | AWS (S3, Lambda), GCP (App Engine, Cloud Build), Heroku, Vercel |
-| Data Science | Pandas 1.4.1, Scikit-Learn 1.0.2, Bokeh 2.4.2 |
-| etc. | Git · Github, JWT |
+| 분류         | 기술 목록                                                            |
+| ------------ | -------------------------------------------------------------------- |
+| Frontend     | React.js 17.0.2, TailwindCSS 3.0.22                                  |
+| Backend      | FastAPI 0.75.0, Django 4.0.3, Fastify 3.27.2, Python 3.8.10, Go 1.17 |
+| Database     | PostgreSQL(ElephantSQL), MongoDB(MongoDB Atlas) 5.0.6                |
+| DevOps       | AWS (S3, Lambda), GCP (App Engine, Cloud Build), Heroku, Vercel      |
+| Data Science | Pandas 1.4.1, Scikit-Learn 1.0.2, Bokeh 2.4.2                        |
+| etc.         | Git · Github, JWT                                                    |
 
 <br/>
 
@@ -97,4 +98,5 @@
 <br/>
 
 ## 6️⃣ 프로젝트 시연 영상 (클릭 시 이동)
+
 [![Project AI-Play Presentation](https://user-images.githubusercontent.com/73585246/162387097-fadcab28-3555-4a27-9dc1-3964d140105c.png)](https://youtu.be/eAUlGmGqqqc)

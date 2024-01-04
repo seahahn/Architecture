@@ -21,15 +21,15 @@
 
 ### Project Function by Result Repository
 
-| Function                                              | Repository Address                                                  |
-| ----------------------------------------------------- | ------------------------------------------------------------------- |
-| Web App UI                                            | [Front-Web](https://github.com/AI-Play/Front-Web)                   |
-| EDA and Data Preprocessing Function API               | [ML-Funcs](https://github.com/AI-Play/ML-Funcs)                     |
-| Machine Learning Model Training Function API          | [ML-Train](https://github.com/AI-Play/ML-Train)                     |
-| User Account Management Function API                  | [User-Auth](https://github.com/AI-Play/User-Auth)                   |
-| User Machine Learning Project Management Function API | [User-Proj-Managing](https://github.com/AI-Play/User-Proj-Managing) |
-| Deep Learning Experience Function API                 | [DL-API](https://github.com/AI-Play/DL-API)                         |
-| Chatting Server                                       | [Chatting](https://github.com/AI-Play/Chatting)                     |
+| Function                                              | Repository Address                                                                        |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Web App UI                                            | [ai-play_frontend](https://github.com/seahahn/ai-play_frontend)                           |
+| EDA and Data Preprocessing Function API               | [ai-play_ml-functions](https://github.com/seahahn/ai-play_ml-functions)                   |
+| Machine Learning Model Training Function API          | [ai-play_ml-training](https://github.com/seahahn/ai-play_ml-training)                     |
+| User Account Management Function API                  | [ai-play_user-auth](https://github.com/seahahn/ai-play_user-auth)                         |
+| User Machine Learning Project Management Function API | [ai-play_user-project-managing](https://github.com/seahahn/ai-play_user-project-managing) |
+| Deep Learning Experience Function API                 | [ai-play_deep-learning-api](https://github.com/seahahn/ai-play_deep-learning-api)         |
+| Chatting Server                                       | [ai-play_chatting](https://github.com/seahahn/ai-play_chatting)                           |
 
 <br/>
 
