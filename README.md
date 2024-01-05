@@ -2,7 +2,7 @@
 
 ## 1️⃣ Project Introduction
 
-🏠 ~~[www.aiplay.online](www.aiplay.online)~~ -> - Because of the server cost, it is temporarily closed
+🏠 [https://www.ai-play.app](https://www.ai-play.app)
 
 ### AI Play
 
