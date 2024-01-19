@@ -47,7 +47,10 @@
     - Leading team schedule and to-dos management using Github Issues and Project Kanban Board
     - Code Review of Github Pull Requests submitted by team members
     - Documentation of project content
-  - Full-stack development of frontend (web app UI) and backend - Implementation and refactoring of the server for user account-related APIs (registration, login, etc.) - Implementation and deployment of the server for managing user's machine learning projects API - Implementation and deployment of the server for deep learning experience model API
+  - Full-stack development of frontend (web app UI) and backend
+    - Implementation and refactoring of the server for user account-related APIs (registration, login, etc.)
+    - Implementation and deployment of the server for managing user's machine learning projects API
+    - Implementation and deployment of the server for deep learning experience model API
   </details>
   <details>
     <summary>[Lee Kyounghee](https://github.com/KayyoungHL)</summary>
